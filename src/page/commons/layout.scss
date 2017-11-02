@@ -1,0 +1,89 @@
+/*
+* @Author: wqy
+* @Date:   2017-09-27 20:47:41
+* @Last Modified by:   wqy
+* @Last Modified time: 2017-09-27 21:13:46
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#f6f6f6;
+	font: 12px/1.5 tohoma, arial, Microsoft Yahei, sans-serif;
+}
+li{
+	list-style:none;
+}
+img{
+	display:block;
+	border:none;
+}
+label{
+	cursor:pointer;
+}
+input[type='checkbox']{
+	cursor:pointer;
+}
+/*定宽布局*/
+$w-1080:1080px;
+$btnHeight:40px;
+$btnMinHeight:25px;
+$font-base:12px;
+$font-middle:17px;
+.w{
+	width:$w-1080;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+//全局通用样式
+.hide{
+	display:none;
+}
+//超链接样式
+.link{
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color: #e80012;
+}
+.link-text{
+	color: #999;
+	text-decoration: none;
+}
+/*btn*/
+.btn{
+	display: inline-block;
+	padding: 0 20px;
+	height: $btnHeight;
+	line-height: $btnHeight;
+	vertical-align: middle;
+	text-align: center;
+	border: none;
+	background: #c60023;
+	font-size: $font-middle;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn-min{
+	height: $btnMinHeight;
+	line-height: $btnMinHeight;
+	font-size:$font-base;
+	padding: 0 10px;
+}
+/*loading*/
+.loading{
+	display: block;
+	width: 65px;
+	height:65px;
+	background: url("../../image/icon/loading.gif") no-repeat;
+	border:1px solid #ddd;
+	border-radius:5px;
+	margin: 10px auto;
+	opacity: .6;
+}
