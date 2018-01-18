@@ -7,13 +7,13 @@
 'use strict';
 require('./index.scss');
 require('../module.js');
-require('page/commons/nav-simple/index.js');
-require('page/commons/nav/index.js');
-require('page/commons/header/index.js');
+require('page/common/nav-simple/index.js');
+require('page/common/nav/index.js');
+require('page/common/header/index.js');
 
 var $$ = require('jquery');
 var _mm = require('util/mm.js');
-var navSide = require('page/commons/nav-side/index.js');
+var navSide = require('page/common/nav-side/index.js');
 
 var html = '<div>{{data}}</div>';
 console.log(_mm.getUrlParam("test"));

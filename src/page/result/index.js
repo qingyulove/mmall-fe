@@ -6,7 +6,7 @@
 
 require('./index.scss');
 
-require('page/commons/nav-simple/index.js');
+require('page/common/nav-simple/index.js');
 
 var _mm = require('util/mm.js');
 

@@ -14,7 +14,7 @@ var navSide = {
         navList : [
             {name: 'user-center',desc: '个人中心',href:'./user-center.html',isActive: false},
             {name: 'order-list',desc: '我的订单',href:'./order-list.html',isActive: false},
-            {name: 'pass-update',desc: '修改密码',href:'./pass-update.html',isActive: false},
+            {name: 'user-pass-update',desc: '修改密码',href:'./user-pass-update.html',isActive: false},
             {name: 'about',desc: '关于MMall',href:'./about.html',isActive: false}
         ]
     },
