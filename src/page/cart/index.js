@@ -9,7 +9,7 @@
  */
 
 'use strict';
-require('./index.css');
+require('./index.scss');
 require('page/common/header/index.js');
 var nav             = require('page/common/nav/index.js');
 var _mm             = require('util/mm.js');
